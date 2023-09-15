@@ -16,6 +16,8 @@ nav_order: 1
 
 ---
 
+## Información General
+
 El stack es una región de memoria utilizada principalmente para almacenar
 el valor de las variables locales de una función.
 
@@ -959,3 +961,86 @@ tiene se conocen como "stack frame".
 ---
 
 ## Stack Frame
+
+Se conoce como stack frame a una sección de datos en el stack que guarda
+datos requeridos por una función.
+
+Veamos el stack que teníamos en la simulación realizada anteriormente.
+
+| Dirección    | Nombres        | Stack       |
+|:-------------|:---------------|:------------|
+| 960          | ?              | ?           |
+| 964          | ?              | ?           |
+| 968          | ?              | ?           |
+| 972          | var1           | 0x00000005  |
+| 976          | ebp guardado   | 0x000003e8  |
+| 980          | return address | 0x00000206  |
+| 984          | ?              | ?           |
+| 988          | ?              | ?           |
+| 992          | var1           | 0x00000005  |
+| 996          | var2           | ?           |
+| 1000         | ?              | ?           |
+
+Por motivos de simplificación, omití agregar al stack el ebp guardado y
+el return address de la función main. En realidad, el stack de la ejecución
+se vería como el siguiente:
+
+| Dirección    | Nombres        | Stack       |
+|:-------------|:---------------|:------------|
+| 960          | ?              | ?           |
+| 964          | ?              | ?           |
+| 968          | ?              | ?           |
+| 972          | var1           | 0x00000005  |
+| 976          | ebp guardado   | 0x000003e8  |
+| 980          | return address | 0x00000206  |
+| 984          | ?              | ?           |
+| 988          | ?              | ?           |
+| 992          | var1           | 0x00000005  |
+| 996          | var2           | ?           |
+| 1000         | ebp guardado   | ?           |
+| 1004         | return address | ?           |
+
+Este stack puede ser descompuesto en dos stack frames.
+
+Stack frame de la función foo:
+
+
+| Dirección    | Nombres        | Stack       |
+|:-------------|:---------------|:------------|
+| 960          | ?              | ?           |
+| 964          | ?              | ?           |
+| 968          | ?              | ?           |
+| 972          | var1           | 0x00000005  |
+| 976          | ebp guardado   | 0x000003e8  |
+| 980          | return address | 0x00000206  |
+
+Stack frame de la función main:
+
+
+| Dirección    | Nombres        | Stack       |
+|:-------------|:---------------|:------------|
+| 984          | ?              | ?           |
+| 988          | ?              | ?           |
+| 992          | var1           | 0x00000005  |
+| 996          | var2           | ?           |
+| 1000         | ebp guardado   | ?           |
+| 1004         | return address | ?           |
+
+Observando con atención, podemos notar que ambos stack frames tienen la
+misma estructura.
+
+| Nombres           | Stack       |
+|:------------------|:------------|
+| variables locales | ?           |
+| ebp guardado      | ?           |
+| return address    | ?           |
+
+Como vimos, cada una de estas 3 partes tiene un propósito específico.
+
+1. Variables locales: Almacenar los valores de las variables locales.
+
+1. ebp guardado: Almacenar el valor de ebp de la función anterior para poder
+recuperarlo al terminar de ejecutar la función actual.
+
+1. Return address: Almacenar la dirección de la instrucción a la que debe
+regresar eip al terminar de ejecutar la función actual.
