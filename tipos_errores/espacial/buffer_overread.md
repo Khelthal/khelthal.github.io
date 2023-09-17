@@ -16,7 +16,7 @@ nav_order: 2
 Antes de comenzar con esta sección, es recomendable que leas las siguientes
 secciones de la guía si aún no las has leído:
 
-[Stack](https://khelthal.github.io/conceptos/stack.html){: .btn .btn-green }
+[Stack](../../conceptos/stack.html){: .btn .btn-green }
 
 ## Table of contents
 {: .no_toc .text-delta }
