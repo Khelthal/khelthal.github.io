@@ -32,6 +32,8 @@ mayor al que una variable de tipo entero puede almacenar. Por otra parte,
 integer underflow es el caso contrario, cuando se intenta almacenar un
 valor menor al que una variable de tipo entero puede almacenar.
 
+---
+
 ## Ejemplo
 
 Integer Overflow
