@@ -166,3 +166,18 @@ Veamos el stack despues de modificar buff1.
 | buff2          | 0x0061615f  |
 | ebp guardado   | ?           |
 | return address | ?           |
+
+## Retos
+
+---
+
+### bof1
+
+¿Recuerdas para qué sirve el return address en el stack?
+
+Explota el buffer overflow en este reto para lograr ejecutar la función
+win.
+
+Archivos:
+
+[bof1](../../retos/bof/bof1.zip){: .btn .btn-blue }
