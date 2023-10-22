@@ -455,3 +455,17 @@ GOT modificado correctamente
 ```
 
 De esta forma logramos hacer que se ejecutara la función win.
+
+## Retos
+
+---
+
+### fmt1
+
+Al igual que es posible escribir en cualquier dirección de memoria con
+el format string, también es posible imprimir lo que hay en cualquier
+dirección de memoria.
+
+Archivos:
+
+[fmt1](../../retos/fmt/fmt1.zip){: .btn .btn-blue }

@@ -272,3 +272,16 @@ Ejecucion de codigo
 
 De esta forma logramos hacer que el programa ejecutara el código que nosotros
 ingresamos por input.
+
+## Retos
+
+---
+
+### inj1
+
+¡Crea tu propio shellcode para llamar a la función win con los argumentos
+necesarios!
+
+Archivos:
+
+[inj1](../../retos/inj/inj1.zip){: .btn .btn-blue }

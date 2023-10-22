@@ -97,3 +97,15 @@ Al ver la salida vemos el buffer overread. A pesar de que el programa
 solo imprime el contenido de la variable inputPassword, logramos hacer
 que el programa nos mostrara el contenido de secretPassword también, es
 decir, logramos leer fuera de los límites de la variable inputPassword.
+
+## Retos
+
+---
+
+### bor1
+
+¿Podrás superar la barrera que te separa de la flag?
+
+Archivos:
+
+[bor1](../../retos/bor/bor1.zip){: .btn .btn-blue }

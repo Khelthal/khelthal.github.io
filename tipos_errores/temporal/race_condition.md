@@ -134,3 +134,15 @@ El dinero retirado fue: 2000
 
 Observamos que gracias a la race condition logramos retirar más dinero
 del que había en la cuenta bancaria.
+
+## Retos
+
+---
+
+### rac1
+
+¿Podrás ser lo suficientemente rápido como para convertirte en admin?
+
+Archivos:
+
+[raf1](../../retos/rac/rac1.zip){: .btn .btn-blue }

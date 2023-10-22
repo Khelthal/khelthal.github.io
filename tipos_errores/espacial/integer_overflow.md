@@ -159,3 +159,14 @@ Salida:
 255
 ```
 
+## Retos
+
+---
+
+### ifb1
+
+¡Pon en práctica el integer overflow y underflow al mismo tiempo!.
+
+Archivos:
+
+[ifb1](../../retos/ifb/ifb1.zip){: .btn .btn-blue }

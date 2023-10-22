@@ -419,3 +419,15 @@ dirección, cuando modificamos el pendiente 0, modificamos el valor de
 admin del usuario, por lo que al iniciar sesión por segunda vez, el
 programa nos imprime el mensaje de que estamos en una cuenta con
 permisos de administrador.
+
+## Retos
+
+---
+
+### uaf1
+
+¿Podrás utilizar el use after free para obtener la password del usuario root?.
+
+Archivos:
+
+[uaf1](../../retos/uaf/uaf1.zip){: .btn .btn-blue }
