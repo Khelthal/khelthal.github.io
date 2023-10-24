@@ -5,5 +5,9 @@ has_children: true
 nav_order: 2
 ---
 
+# Tipos de errores
 
-TODO
+---
+
+En esta sección se encuentran categorías de distintos tipos de errores
+que se encuentran frecuentemente en programas.

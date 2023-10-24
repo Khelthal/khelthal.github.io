@@ -6,5 +6,4 @@ has_children: true
 nav_order: 1
 ---
 
-
-TODO
+Errores que surgen cuando se sobrepasan los límites de memoria de un objeto.

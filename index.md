@@ -6,6 +6,8 @@ nav_order: 1
 
 # Guía de explotación binaria
 
+---
+
 ## ¿Qué es esta guía?
 
 Esta guía tiene como objetivo brindar una introducción a distintos tópicos de

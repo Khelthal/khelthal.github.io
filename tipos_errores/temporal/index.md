@@ -6,5 +6,4 @@ has_children: true
 nav_order: 2
 ---
 
-
-TODO
+Errores que surgen cuando objetos son accedidos en un momento incorrecto.

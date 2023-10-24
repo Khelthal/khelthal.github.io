@@ -73,3 +73,16 @@ Antes de terminar su ejecución, la función verificará la integridad del
 canary. En este caso, el programa detectará que el canary ya no tiene el
 valor `0x57e8f26a`, lo que significa que ocurrió un buffer overflow y el
 programa terminará su ejecución.
+
+---
+
+## Mitiga
+
+Este mecanismo mitiga los siguientes tipos de errores y tipos de explotación:
+
+[Buffer Overflow](../../tipos_errores/espacial/buffer_overflow.html){: .btn .btn-green }
+(Parcialmente, ya que solo impide sobreescribir el return address, pero todas
+las variables antes del canary pueden ser sobreescritas)
+
+Por lo que probablemente sea mejor intentar otras técnicas contra binarios
+que tengan esta protección activada.

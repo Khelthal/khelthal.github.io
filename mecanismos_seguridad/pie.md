@@ -94,3 +94,16 @@ Function address:  0x5557ccb5a139
 Aquí podemos ver la aleatorización de PIE en acción. Observamos que las
 direcciones de memoria siempre son distintas cada vez que ejecutamos el
 binario.
+
+---
+
+## Mitiga
+
+Este mecanismo mitiga los siguientes tipos de errores y tipos de explotación:
+
+[Format String Bug](../../tipos_errores/espacial/format_string.html){: .btn .btn-green }
+(Mitiga Write-what-where condition, ya que no podemos conocer el address de 
+la global offset table sin un leak)
+
+Por lo que probablemente sea mejor intentar otras técnicas contra binarios
+que tengan esta protección activada.

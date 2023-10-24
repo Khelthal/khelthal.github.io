@@ -500,3 +500,16 @@ Su Mo Tu We Th Fr Sa
 $ exit
 Ingresa input:
 ```
+
+## Retos
+
+---
+
+### ret1
+
+Es el mismo ejercicio que en el ejemplo. ¡Prueba a encontrar la versión de
+libc correcta!.
+
+Archivos:
+
+[ret1](../../retos/ret/ret1.zip){: .btn .btn-blue }

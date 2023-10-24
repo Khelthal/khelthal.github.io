@@ -6,5 +6,5 @@ has_children: true
 nav_order: 1
 ---
 
-
-TODO
+Ataques que buscan manipular datos de control como el return address de
+una función.

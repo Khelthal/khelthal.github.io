@@ -99,3 +99,14 @@ Libc address:  0x7f74af50ee60
 Aquí podemos ver la aleatorización de ASLR en acción. Observamos que las
 direcciones de memoria siempre son distintas cada vez que ejecutamos el
 binario.
+
+---
+
+## Mitiga
+
+Este mecanismo mitiga los siguientes tipos de errores y tipos de explotación:
+
+[Return To Libc](../../tipos_explotacion/control/ret2libc.html){: .btn .btn-green }
+
+Por lo que probablemente sea mejor intentar otras técnicas contra binarios
+que tengan esta protección activada.
