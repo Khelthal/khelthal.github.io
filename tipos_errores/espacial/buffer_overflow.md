@@ -167,6 +167,16 @@ Veamos el stack después de modificar buff1.
 | ebp guardado   | ?           |
 | return address | ?           |
 
+---
+
+## Mitigaciones
+Los siguientes mecanismos de seguridad dificultan o impiden el uso de esta
+técnica:
+
+[Canary](../../mecanismos_seguridad/canary.html){: .btn .btn-green }
+[PIE](../../mecanismos_seguridad/pie.html){: .btn .btn-green }
+
+
 ## Retos
 
 ---

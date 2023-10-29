@@ -501,6 +501,16 @@ $ exit
 Ingresa input:
 ```
 
+---
+
+## Mitigaciones
+Los siguientes mecanismos de seguridad dificultan o impiden el uso de esta
+técnica:
+
+[ASLR](../../mecanismos_seguridad/aslr.html){: .btn .btn-green }
+[Canary](../../mecanismos_seguridad/canary.html){: .btn .btn-green }
+[PIE](../../mecanismos_seguridad/pie.html){: .btn .btn-green }
+
 ## Retos
 
 ---

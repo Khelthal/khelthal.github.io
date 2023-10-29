@@ -273,6 +273,14 @@ Ejecucion de codigo
 De esta forma logramos hacer que el programa ejecute el código que nosotros
 ingresamos por input.
 
+---
+
+## Mitigaciones
+Los siguientes mecanismos de seguridad dificultan o impiden el uso de esta
+técnica:
+
+[NX](../../mecanismos_seguridad/nx.html){: .btn .btn-green }
+
 ## Retos
 
 ---

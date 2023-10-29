@@ -456,6 +456,15 @@ GOT modificado correctamente
 
 De esta forma logramos hacer que se ejecute la función win.
 
+---
+
+## Mitigaciones
+Los siguientes mecanismos de seguridad dificultan o impiden el uso de esta
+técnica:
+
+[RELRO](../../mecanismos_seguridad/relro.html){: .btn .btn-green }
+[PIE](../../mecanismos_seguridad/pie.html){: .btn .btn-green }
+
 ## Retos
 
 ---
