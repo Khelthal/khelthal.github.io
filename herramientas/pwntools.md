@@ -87,7 +87,7 @@ Numero incorrecto.
 ```
 
 Hacer este proceso a mano sería muy tardado. Con pwntools podemos interactuar
-con el input y output de nuestro binario. Veamos como utilizar pwntools para
+con el input y output de nuestro binario. Veamos cómo utilizar pwntools para
 ejecutar nuestro binario e interactuar con él:
 
 ```python
@@ -346,5 +346,5 @@ Lo lograste!
 
 Vemos que con la ayuda de pwntools logramos automatizar todo el proceso.
 
-Esta fue una demostración básica de el uso de pwntools, ya que pwntools
+Esta fue una demostración básica del uso de pwntools, ya que pwntools
 cuenta con una gran cantidad de utilidades que podemos utilizar.

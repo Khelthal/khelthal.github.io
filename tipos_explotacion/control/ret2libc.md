@@ -60,7 +60,7 @@ int main() {
 }
 ```
 
-Para facilitar el ejemplo, lo compilaremos sin 
+Para facilitar el ejemplo, lo compilamos sin 
 [Canary](../../mecanismos_seguridad/canary.html){: .label .label-green }, sin
 [PIE](../../mecanismos_seguridad/pie.html){: .label .label-green }
 y para 32 bits. También habilitaremos
@@ -276,7 +276,7 @@ Ingresa input:
 
 Podemos notar 2 cosas importantes:
 
-1. El programa imprimió caracteres extraños, estos caracteres son la
+1. El programa imprime caracteres extraños, estos caracteres son la
 dirección de puts.
 2. El programa nos pide ingresar input nuevamente, lo que significa que
 logramos regresar a main exitosamente.
@@ -390,7 +390,7 @@ Ingresa input:
 ```
 
 Vemos que el address de gets es 0xf7c77860 y el de puts es 0xf7c78220. Podemos
-identificar la versión de libc utilizando los últimos 3 digitos de estas
+identificar la versión de libc utilizando los últimos 3 dígitos de estas
 direcciones, ya que estos 3 digitos no son afectados por el offset aleatorio
 que agrega ASLR.
 

@@ -87,11 +87,11 @@ estaríamos guardando el código que vemos arriba en el stack.
 Esto por si solo no es un problema, ya que todo depende de cómo interprete
 el programa esos bytes. Por ejemplo, si tenemos los bytes `\x41\x41\x41\x41`,
 el programa podría interpretarlos como un entero, y el resultado
-sería 1094795585. En cambio, si interpretara esos bytes como un string, el
+sería 1094795585. En cambio, si interpreta esos bytes como un string, el
 resultado sería "AAAA".
 
 Teniendo esto en mente, el código que logramos meter al stack no sirve
-por sí solo, necesitamos hacer que el programa lo interpete como instrucciones
+por sí solo, necesitamos hacer que el programa lo interprete como instrucciones
 y las ejecute.
 
 Para esto requerimos 2 cosas:
@@ -202,7 +202,7 @@ ejecución de comandos debe tener el siguiente formato:
 1. Padding
 1. Dirección de nuestro shellcode
 
-Con el stack que bosquejamos anteriormente, sabemos que la distancia
+Con el stack que visualizamos anteriormente, sabemos que la distancia
 entre nuestro input es de 0x28+0x4 (44). Con esto en mente, nuestro
 input tendrá los siguientes tamaños:
 
@@ -270,7 +270,7 @@ $ echo "Ejecucion de codigo"
 Ejecucion de codigo
 ```
 
-De esta forma logramos hacer que el programa ejecutara el código que nosotros
+De esta forma logramos hacer que el programa ejecute el código que nosotros
 ingresamos por input.
 
 ## Retos

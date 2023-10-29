@@ -66,7 +66,7 @@ hacer que se ejecuten instrucciones de nuestra elección.
 | ebp+0x4                | return address | 0xdeadbeef  |             |
 
 Observamos que como el canary siempre estará debajo de nuestras variables
-locales en el stack frame, al hacer el buffer overflow cambiamos el vamor
+locales en el stack frame, al hacer el buffer overflow cambiamos el valor
 del canary, por lo que ahora el canary tiene el valor de `0x41414141`.
 
 Antes de terminar su ejecución, la función verificará la integridad del

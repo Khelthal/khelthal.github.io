@@ -29,7 +29,7 @@ nuevos elementos, por lo que es imposible saber en tiempo de compilación el
 tamaño que tendrá.
 
 Para guardar dicha lista en el stack, forzosamente tendríamos que darle un tamaño
-máxmimo a la lista y a los nombres de los videojuegos, por ejemplo:
+máximo a la lista y a los nombres de los videojuegos, por ejemplo:
 
 ```c
 int main() {
@@ -43,7 +43,7 @@ juego supera los 20 caracteres?. Por supuesto que podríamos aumentar el tamaño
 tanto como de la lista como de los caracteres, pero ¿qué pasa si solo he jugado
 1 videojuego?, habría mucho espacio desperdiciado.
 
-Para casos donde no podemos saber el tamaño las variables en tiempo de
+Para casos donde no podemos saber el tamaño de las variables en tiempo de
 compilación, debemos recurrir al heap. El heap nos permite reservar memoria
 de forma dinámica conforme la necesitemos. Podemos reescribir nuestra lista
 de la siguiente forma:

@@ -38,7 +38,7 @@ Full RELRO
 {: .label .label-purple }
 
 Hace que la sección GOT sea de solo lectura, por lo que mitiga ataques
-que depeden de escribir en esta sección.
+que dependen de escribir en esta sección.
 
 ---
 

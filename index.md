@@ -15,14 +15,14 @@ la explotación de binarios.
 
 En esta guía se busca ofrecer una explicación paso por paso de cada tema, por
 lo que cada sección cuenta con una breve explicación teórica y una explicación
-prácitca en donde se utiliza un caso hipótetico en el que se mostrará cómo
+práctica en donde se utiliza un caso hipotético en el que se mostrará cómo
 se aplica el tema en cuestión.
 
 ## Conocimientos necesarios
 
 Uno de los objetivos de esta guía es que se pueda entender los temas sin
 necesidad de ser un experto en el tema, por lo que solo se requiere
-conocimiento de la sintáxis de lenguaje C, ensamblador y python.
+conocimiento de la sintaxis de lenguaje C, ensamblador y python.
 
 Aparte de los 3 requisitos mencionados, cada tema indica los conocimientos
 necesarios al inicio de la página y enlaces para consultar la información

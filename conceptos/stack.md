@@ -610,7 +610,7 @@ Para evitar perder el valor de ebp de la función main, antes de cambiar
 el valor de ebp, lo guardamos en el stack para poder recuperarlo al
 finalizar la función foo.
 
-la instrucción actual, push ebp, hace exactamente eso, "empujar" en el
+La instrucción actual, push ebp, hace exactamente eso, "empujar" en el
 stack el valor actual de ebp.
 
 
@@ -664,7 +664,7 @@ ebp ya se encuentra guardado en el stack. Una vez que ya guardamos
 el valor de ebp, el siguiente paso es cambiar el valor de ebp
 para obtener el ebp que servirá como pivote para las variables locales
 de la función foo. La instrucción actual, `mov ebp, esp`, se encarga de
-eso. Reemplaza el valor de ebp con el valor acutal de esp.
+eso. Reemplaza el valor de ebp con el valor actual de esp.
 
 
 Paso 6
@@ -938,7 +938,7 @@ el espacio utilizado por las variables locales de la función main y para
 recuperar el valor de ebp de la función anterior y finalmente la instrucción
 `ret` para regresar a la función anterior.
 
-Después de esta simulación de ejecución, podemos notar que las funciónes
+Después de esta simulación de ejecución, podemos notar que las funciones
 que teníamos en lenguaje C, al ser compiladas, el ensamblador resultante
 tiene una estructura que es igual en todas las funciones.
 

@@ -71,7 +71,7 @@ $ objdump -d test
 ...
 ```
 
-Notmaos que las funciones que provienen de las librerías externas tienen el
+Notamos que las funciones que provienen de las librerías externas tienen el
 sufijo "@plt", mientras que la función main que declaramos en nuestro código,
 no tiene este sufijo.
 

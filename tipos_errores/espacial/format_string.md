@@ -198,7 +198,7 @@ Entonces, cuando nosotros pasamos el string "%d" a nuestro programa, el
 primer argumento era nuestro formato "%d". Este formato imprimió el
 segundo argumento como un entero. Debido al calling convention sabemos
 que la función printf tomó como segundo argumento ebp+0xc. Como el programa
-imprimió un 8, podemos concluír que en ebp+0xc hay un valor 8 almacenado.
+imprimió un 8, podemos concluir que en ebp+0xc hay un valor 8 almacenado.
 
 | Direcciones relativas  | Nombres        | Stack       | Registros   |
 |:-----------------------|:---------------|:------------|:------------|
@@ -322,7 +322,7 @@ int main() {
 Nuestro objetivo en este programa será utilizar un Write-what-where Condition
 para lograr ejecutar la función win. Para hacerlo, debemos recordar la global
 offset table. Recordemos que las funciones fgets, printf y puts que
-utilizamos en nuestro programa están definidas en una libería externa, y
+utilizamos en nuestro programa están definidas en una librería externa, y
 que en la global offset table se guarda la dirección de estas funciones. Esto
 significa que podemos cambiar la global offset table para modificar la dirección
 de alguna de estas funciones por la dirección de la función win.
@@ -406,7 +406,7 @@ Segmentation fault
 ```
 
 Vemos que el programa truena debido a que cambiamos la dirección de la
-función fgets por un 0, lo que ocasionó que el programa fallara al
+función fgets por un 0, lo que ocasionó que el programa falle al
 intentar llamar a la función fgets.
 
 ```c
@@ -454,7 +454,7 @@ Ingrese su input:                                                               
 GOT modificado correctamente
 ```
 
-De esta forma logramos hacer que se ejecutara la función win.
+De esta forma logramos hacer que se ejecute la función win.
 
 ## Retos
 

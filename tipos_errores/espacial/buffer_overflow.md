@@ -27,8 +27,8 @@ secciones de la guía si aún no las has leído:
 
 ## Información General
 
-A un área en donde se alacena información temporal se le conoce como
-un buffer. Naturalmente, está area debe tener un tamaño definido.
+A un área en donde se almacena información temporal se le conoce como
+un buffer. Naturalmente, esta área debe tener un tamaño definido.
 
 Se conoce como buffer overflow a un error en el que la información
 almacenada supera el tamaño del área designada para guardar esa información.
@@ -139,7 +139,7 @@ copiando caracteres en áreas de memoria que ya no correspondían a buff1.
 En este caso, los caracteres sobrantes afectaron al área designada para
 buff2.
 
-Veamos una aproximación cómo se vería el stack antes de modificar la variable
+Veamos una aproximación de cómo se vería el stack antes de modificar la variable
 buff1.
 
 
@@ -156,7 +156,7 @@ Podemos ver que buff1 y buff2 están juntos en el stack. Es por eso que
 al intentar copiar un string de más de 8 caracteres a buff1 modificamos
 el valor de buff2.
 
-Veamos el stack despues de modificar buff1.
+Veamos el stack después de modificar buff1.
 
 | Nombres        | Stack       |
 |:---------------|:------------|

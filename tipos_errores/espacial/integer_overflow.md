@@ -65,7 +65,7 @@ Ahora, la pregunta, ¿qué pasaría si intentamos sumar uno a nuestra variable?
 
 Como sabemos, ya están llenos los 8 bits destinados a una variable de tipo
 char. Quizá podríamos pensar que pasaría algo similar al buffer overflow, y
-que nuestra variable num ahora utilizaría un bit extra, pero no.
+que nuestra variable num ahora utilizará un bit extra, pero no.
 
 Modifiquemos un poco nuestro código para ver lo que realmente sucede:
 

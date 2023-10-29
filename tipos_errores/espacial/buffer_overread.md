@@ -28,8 +28,8 @@ secciones de la guía si aún no las has leído:
 
 ## Información General
 
-A un área en donde se alacena información temporal se le conoce como
-un buffer. Naturalmente, está area debe tener un tamaño definido.
+A un área en donde se almacena información temporal se le conoce como
+un buffer. Naturalmente, esta área debe tener un tamaño definido.
 
 Se conoce como buffer overread a un error en el que al intentar leer
 información de un buffer, el programa lee información fuera del área
@@ -77,7 +77,7 @@ admin
 El password admin es incorrecto
 ```
 
-Ahora, recordemos que en lenguaje C los strings arreglos de caracteres
+Ahora, recordemos que en lenguaje C los strings son arreglos de caracteres
 terminados por un null byte. Es decir, al imprimir el contenido de
 inputPassword, el programa imprimirá todos los caracteres que encuentre
 hasta llegar a un null byte.
